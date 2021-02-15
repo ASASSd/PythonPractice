@@ -36,3 +36,14 @@ def f3(n, m):
 
 print(f3(45, 99))
 print(f3(45, 100))
+
+
+def f4(n):
+    if(n==0):
+        return 4
+    else:
+        return 1/57 * f4(n-1)**2 - 1/96 * f4(n-1)
+
+
+print(f4(4))
+print(f4(6))
