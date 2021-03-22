@@ -1,16 +1,12 @@
 import math
 
 
-def f1(x, y, z):
+def f11(x, y, z):
     return ((y ** 4) / 11 + z ** 5 + 66) / (y ** 7 + math.e ** x) + y ** 7 + 34 * z ** 4 - (
             (math.log(x) - 22 * y ** 5) / (z ** 8 - 59 * y ** 5))
 
 
-print(f1(1, 31, -15))
-print(f1(87, 35, -41))
-
-
-def f2(x):
+def f12(x):
     if x < 111:
         return 22 * x ** 6 + x ** 5
     elif 11 <= x < 149:
@@ -19,11 +15,7 @@ def f2(x):
         return x ** 2 - 67 * x ** 5 + 45
 
 
-print(f2(130))
-print(f2(215))
-
-
-def f3(n, m):
+def f13(n, m):
     res = float(0)
     for i in range(1, n):
         res += 22 * i ** 6 + i ** 5
@@ -34,16 +26,8 @@ def f3(n, m):
     return res
 
 
-print(f3(45, 99))
-print(f3(45, 100))
-
-
-def f4(n):
+def f14(n):
     if(n==0):
         return 4
     else:
         return 1/57 * f4(n-1)**2 - 1/96 * f4(n-1)
-
-
-print(f4(4))
-print(f4(6))
