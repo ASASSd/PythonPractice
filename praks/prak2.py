@@ -1,4 +1,4 @@
-def f1(x):
+def f21(x):
     if x[3] == 1986:
         if x[4] == 'muf':
             if x[2] == 'idl':
@@ -32,11 +32,11 @@ def f1(x):
         return 12
 
 
-print(f1([1980, 'nsis', 'jflex', 1986, 'golo']))
-print(f1([1987, 'nsis', 'clean', 1986, 'muf']))
+#print(f1([1980, 'nsis', 'jflex', 1986, 'golo']))
+#print(f1([1987, 'nsis', 'clean', 1986, 'muf']))
 
 
-def f2(x):
+def f22(x):
     a = x & 0b00000000000000000000000000000001
     b = x & 0b00000000000000000000000111111110
     c = x & 0b00000000000000011111111000000000
@@ -52,7 +52,7 @@ def f2(x):
     return xstr
 
 
-print(hex(f2(0x4562240c)))
-print(hex(f2(0x8f6903fd)))
+#print(hex(f2(0x4562240c)))
+#print(hex(f2(0x8f6903fd)))
 
 

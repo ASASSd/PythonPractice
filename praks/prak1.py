@@ -17,11 +17,11 @@ def f12(x):
 
 def f13(n, m):
     res = float(0)
-    for i in range(1, n):
+    for i in range(1, n+1):
         res += 22 * i ** 6 + i ** 5
     res *= 30
-    for i in range(1, n):
-        for j in range(1, m):
+    for i in range(1, n+1):
+        for j in range(1, m+1):
             res += math.cos(i) - j ** 5 - 10
     return res
 
